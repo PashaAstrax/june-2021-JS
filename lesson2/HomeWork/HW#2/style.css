@@ -1,0 +1,23 @@
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 55px;
+    margin: 13px;
+}
+
+.wrap h3 {
+	background: #e6d71e;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.wrap p {
+	text-align: justify;
+	background: linear-gradient(
+	29deg, black, transparent);
+    color: whitesmoke;
+}
+
+.post-card {
+	width: 200px;
+}

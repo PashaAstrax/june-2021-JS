@@ -1,0 +1,44 @@
+.target div {
+	display: flex;
+	text-align: justify;
+	margin-bottom: 30px;
+	border: inset;
+	padding-top: 5px;
+    padding-left: 5px;
+	font-size: 20px;
+	background: snow;
+}
+
+.wrap h2{
+	text-align: center;
+	background: lightsteelblue;
+}
+
+.wrap p {
+	text-align: justify;
+	background: whitesmoke;
+}
+
+.wrap img {
+	position: relative;
+    left: 520px;
+}
+
+.wrapper {
+	display: flex;
+	margin-top: 50px;
+	border-top: 1px solid;
+}
+.product-card {
+	text-transform: capitalize;
+	margin-top: 50px;
+}
+
+.product-title {
+	text-align: center;
+	font-size: 22px;
+}
+
+.product-image {
+	width: 300px;
+}
