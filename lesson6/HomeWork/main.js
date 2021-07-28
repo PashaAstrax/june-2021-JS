@@ -1,5 +1,5 @@
-// 1. Отримати відповідь з цього ресурсу, та вивести в документ як в прикладі на занятті
-// https://jsonplaceholder.typicode.com/posts
+//1. Отримати відповідь з цього ресурсу, та вивести в документ як в прикладі на занятті
+//https://jsonplaceholder.typicode.com/posts
 
 fetch("https://jsonplaceholder.typicode.com/posts")
     .then(value => value.json())
@@ -12,7 +12,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
         }
     });
 
-// 2. Отримати відповідь з цього ресурсу відповідь, та вивести в документ як в прикладі на занятті
+//2. Отримати відповідь з цього ресурсу відповідь, та вивести в документ як в прикладі на занятті
 //https://jsonplaceholder.typicode.com/comments
 
 fetch("https://jsonplaceholder.typicode.com/comments")
