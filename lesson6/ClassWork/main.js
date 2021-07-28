@@ -21,7 +21,7 @@ fetch("https://jsonplaceholder.typicode.com/posts")
                         commentsWrap.innerText = "";
                         for (let comment of value) {
                             let commentsElemenents = document.createElement("div");
-                            commentsElemenents.innerText = comment.body;
+                            commentsElemenents.innerText = `\n ${comment.body}`;
                             commentsWrap.append(commentsElemenents);
                         }
                     });
